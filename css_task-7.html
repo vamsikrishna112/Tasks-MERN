@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: rgb(226, 76, 101);
+            height:60vh;
+            width:50vw;
+            background-size: cover;
+            padding:5px;
+        }
+        .inside{
+            background-color:rgb(123, 32, 32);
+            margin:25px;
+            padding:15px 10px 15px 10px;
+            color:white;
+            font-size:13px;
+        }
+        .button{
+            text-align: center;
+            font-weight: bold;
+            margin:5px;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inside">
+                <form>
+                        <table cellspacing="5">
+                            <tr>
+                                <td>
+                                    Name:
+                                </td>
+                                <td>
+                                    <input type="text" name="Fullname">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Password:
+                                </td>
+                                <td>
+                                    <input type="Password" name="password"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Phone Number:
+                                </td>
+                                <td>
+                                    <input type="tel" name="phonenumber" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Age:
+                                </td>
+                                <td>
+                                    <input type="number" name="age" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Gender:
+                                </td>
+                                <td>
+                                    <label for="male">Male:</label>
+                                    <input type="radio" name="gender" id="male" value="male" />
+                                    <label for="female">Female:</label>
+                                    <input type="radio" name="gender" id="female" value="female"/>
+                                    <label type="others">Others:</label>  
+                                    <input type="radio" name="gender" id="others" value="others"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    language
+                                </td>
+                                <td>
+                                    <select name="language"> 
+                                        <option value="Selectlanguage">Select Language</option>    
+                                        <option value="Selectlanguage">Telugu</option>
+                                        <option value="Selectlanguage">Hindi</option>
+                                        <option value="Selectlanguage">English</option>
+                                        </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Zip Code:
+                                </td>
+                                <td>
+                                    <input type="tel" name="code" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    About:
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="Write about yourself..." name="describe" />
+                                </td>
+                            </tr>
+                            <td></td>
+                            <td> <button class="button">Register</button>
+                            </td>
+                    </form>        
+        </div>            
+    </div>
+</body>
+</html>
